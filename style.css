@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sora:wght@100..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Sora", sans-serif;
+    background-color: #F2F5F9;
+    color: #111729;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    max-width: fit-content;
+    margin: 0 auto;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+article {
+    background-color: #FFFFFF;
+    border-radius: 16px;
+}
+
+.hero-cover {
+    position: relative;
+
+
+}
+
+.hero-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 22%;
+}
+
+article img {
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.text-container {
+    padding: 40px;
+}
+
+.text-content p {
+    font-size: 0.9em;
+}
+
+h1 {
+    padding: 0 0 20px;
+    font-size: 1.5em;
+}
+
+p {
+    color: #4A5567;
+}
+
+strong {
+    color: #111729;
+
+}
+
+
+.avatar-section {
+    display: flex;
+}
+
+.avatar-section {
+    align-items: center;
+    gap: 5%;
+    padding: 50px 0 0;
+    font-size: 0.9em;
+}
+
+.avatar-img img {
+    border-radius: 28px;
+}
