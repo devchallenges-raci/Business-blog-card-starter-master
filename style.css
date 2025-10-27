@@ -12,6 +12,10 @@ body {
     color: #111729;
 }
 
+img {
+    width: 100%;
+    height: auto;
+}
 
 main {
     display: flex;
